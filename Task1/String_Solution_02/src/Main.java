@@ -8,10 +8,16 @@ public class Main {
     public static void main(String[] args) {
 
         String text = ",     Миша, Коля, Сергей,Толян  ";
-        String[] out = text.trim().split(" ");
+        String[] out = text.trim().split("[ ,]");
         for (int i = 0; i < out.length; i++) {
-            System.out.println(out[i]);
+            if (out[i].trim().length() != 0) {
+                System.out.println(out[i]);
+            }
         }
+
+        // не, не сработало. Имена специально разделены не только пробелом, но и запятой, а иногда только запятой, это нужно учитывать в параметре Split()
+        // при выводе еще игнорировать пустые значения.
+        // исправил как нужно
 
 
     }

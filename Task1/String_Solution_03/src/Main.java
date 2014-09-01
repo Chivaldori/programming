@@ -31,11 +31,20 @@ public class Main {
         System.out.println(text);
         System.out.println();
 
+
         char[] charArr = text.toCharArray();
         int countO = 0;
         for (int i = 0; i < charArr.length; i++) {
             if (charArr[i] == ch) countO = countO + 1;
         }
+        // можно было не приводить врукопашную в массив char, в объекте String и так можно достучаться к i-тому символу:
+        /*for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == ch) {
+                // и использовать операцию постинкремента (++) - выглядит покороче:
+                countO++;
+            }
+        }*/
+
         System.out.println("Количество букв - " + ch + ": " + countO);
         System.out.println();
 
@@ -47,10 +56,6 @@ public class Main {
         buff.insert(indOffset + lengthOffSet, word2);
         text = buff.toString();
         System.out.println(text.toUpperCase());
-
-
-
-
 
     }
 }

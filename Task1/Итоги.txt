@@ -1,0 +1,6 @@
+Solution_01 - Зачот
+Solution_02 - Низачот. Доделать
+Solution_03 - Зачот
+String_Solution_01 - Зачот
+String_Solution_02 - В принципе зачот, читай комментарии в коде
+String_Solution_03 - Зачот
