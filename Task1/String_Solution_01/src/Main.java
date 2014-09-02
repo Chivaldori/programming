@@ -9,6 +9,9 @@ public class Main {
 
         // очень плохо названа переменная string. почти как тип String, которым она даже не является.
         // если кода будет больше - легко запутаться
+
+        // Принял. Согласен.
+
         StringBuilder string = new StringBuilder();
         String inputString = "Test_String ";
         for (int i = 1; i <= 100 ; i++) {
@@ -16,6 +19,8 @@ public class Main {
         }
 
         // ну и вывести результат тогда уже
+
+        // не было в задании
         System.out.println(string.toString());
     }
 

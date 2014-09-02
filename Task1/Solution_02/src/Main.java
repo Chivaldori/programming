@@ -2,14 +2,24 @@
 
 public class Main {
 
+    public static final int MAX = 6;
+
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 6; i++) {
-            for (int j =1; j <= 6; j++ ) {
-                System.out.print(j*i + " ");
-            }
+//        for (int i = 1; i <= 6; i++) {
+//            for (int j =1; j <= 6; j++ ) {
+//                System.out.print(j*i + " ");
+//            }
+//            System.out.println();
+//        }
+
+        for (int i = 1; i <= MAX; i++) {
+                System.out.print(i + " * 6 = " + (i * MAX));
             System.out.println();
         }
+
+
+
 
        /* у меня выводит вот это:
         1 2 3 4 5 6
@@ -23,8 +33,11 @@ public class Main {
         1 * 6 = 6
         2 * 6 = 12
         ...*/
+// У меня в тетраде было так написано. Нужно было привести пример вывода. И ваще матрицы рулят.
+// Переделал.
 
         //и вложенный цикл совсем не обязателен. даже наоборот
+        //а как без вложенного цикла? если вывод делать как у меня.
     }
 
 

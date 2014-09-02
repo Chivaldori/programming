@@ -45,6 +45,8 @@ public class Main {
             }
         }*/
 
+        // Принял.
+
         System.out.println("Количество букв - " + ch + ": " + countO);
         System.out.println();
 

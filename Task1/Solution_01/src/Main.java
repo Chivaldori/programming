@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         // зачем эта строка?
+// Это печать нуля. С ним ошибся. Забыл что он четный.
         System.out.println(0);
         int j = 1;
         while (j < 77) {
@@ -17,6 +18,7 @@ public class Main {
 
 
         // вот ещё пример решения через for:
+//  Такой пример не катит, так как это тупо подгон результатов. А в данном случае нужно пользоваться определением четности.
         for (int i = 1; i <= 76; i+=2) {
             System.out.println(i);
         }
