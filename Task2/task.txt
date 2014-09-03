@@ -1,0 +1,30 @@
+﻿Запрограммировать (в коде, не визуальном редакторе UML) и объединить в один связанный клубок следующие классы и интерфейсы:
+
+Классы:
+ - Animal
+ - Fish
+ - Horse (с полем Имя)
+ - Human
+ - Andriy (с методами feedFishes() и drive(Car carToDrive))
+ - Maria (с методами feedHorse() и readBook(Book bookToRead))
+ - Aquarium (с полем-массивом рыбок)
+ - Mechanism
+ - Car (с полем Марка)
+ - Calculator
+ - Book (с полями название и количество страниц)
+ 
+
+Интерфейсы
+ - Livable (с методами sleep(), eat())
+ - Workable (с методами work(), rest())
+ - Movable (с методами increaseSpeed(), decreaseSpeed(), stop(), start())
+
+
+Условия наследования и вложенности:
+ - Human, Horse и Fish наследуются от Animal. Andriy и Maria - от Human. Car и Calculator наследуют Mechanism.
+ - Animal реализует Livable. Human реализует Workable. Car реализует Movable.
+ - У Андрея есть 2 машины - лексус и ланос, и аквариум с рыбками (20 штук). У марии калькулятор, 3 книги и лошадь Жанна.
+
+
+Дополнительные вспомогательные методы приветствуются, главное не сильно запутывай.
+Методы могут быть пустышками или выводить строку на консоль типа "выполняется readBook()..."
