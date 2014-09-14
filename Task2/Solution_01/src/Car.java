@@ -1,5 +1,10 @@
 public class Car extends Mechanism implements Movable {
     String model;
+
+    public Car(String model) {
+        this.model = model;
+    }
+
     public void stop() {
         System.out.println("Stop");
     }
